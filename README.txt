@@ -9,6 +9,17 @@ Therefore, the user list is still reachable through the API or the url:
 
 By default, the role is 'interface user'.
 
+Installation:
+- Upload the zip file in the archive with the Module Loader
+- Build & Repair
+Test:
+- Create the new role 'interface user'
+- Add Chris Oliver e.g. to that role
+- Repair the Roles
+- Open an incognito Google Chrome window
+- Log in as Chris
+- Go to the Employees list
+
 Copyright 2014 Olivier Nepomiachty - All rights reserved.
 
 Release notes:

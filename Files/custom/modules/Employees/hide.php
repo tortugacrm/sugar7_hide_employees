@@ -26,7 +26,7 @@ class UsersFilterHook
 {
 	public static function UsersFilter(Employee $beanUser, $event, $args)
 	{
-		global $current_user;interface user
+		global $current_user;
 		if ($current_user->is_admin) return;
 		
 		$GLOBALS['log']->warn("######## Entering UsersFilter");
